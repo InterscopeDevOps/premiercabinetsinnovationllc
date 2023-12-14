@@ -17,7 +17,7 @@ function ServicesHome3({ bgImg, serviceName, serviceText }) {
   return (
     <div className="w-4/5 mx-auto py-10">
           <div className="flex flex-col  items-center md:justify-between md:items-center pb-8">
-            <h3>Our Services</h3>
+            <h3 className="capitalize">Our commercial and residential services</h3>
             <ButtonContent btnStyle='three' btnName='view all services' btnLink={'services'} />
           </div>
           <div className={`grid grid-cols-1 md:grid-cols-2 ${rpdata?.dbServices?.length > 5 ? 'lg:grid-cols-3' : 'lg:grid-cols-2'}  gap-5`}>
