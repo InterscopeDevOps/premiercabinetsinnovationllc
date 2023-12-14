@@ -34,10 +34,10 @@ function Home() {
         <BlockPrincipal
           text={rpdata?.dbHome?.[0].text}
           title={rpdata?.dbSlogan?.[5]?.slogan}
-          image1={rpdata?.stock?.[12]}
-          image2={rpdata?.stock?.[0]}
-          image3={rpdata?.stock?.[8]}
-          image4={rpdata?.stock?.[9]}
+          image1={rpdata?.gallery?.[12]}
+          image2={rpdata?.gallery?.[0]}
+          image3={rpdata?.gallery?.[8]}
+          image4={rpdata?.gallery?.[9]}
           sloganPrincipal={true}
         />
 
@@ -59,18 +59,18 @@ function Home() {
         <BlockSecondary
           title={rpdata?.dbSlogan?.[3]?.slogan}
           text={rpdata?.dbHome?.[1]?.text}
-          image={rpdata?.stock?.[3]}
+          image={rpdata?.gallery?.[3]}
         />
 
-        <CounterUp image={rpdata?.stock?.[0]} />
+        <CounterUp image={rpdata?.gallery?.[0]} />
 
 
         <BlockAbout
           title={rpdata?.dbSlogan?.[1]?.slogan}
           text={rpdata?.dbAbout?.[0]?.text}
-          image1={rpdata?.stock?.[6]}
-          image2={rpdata?.stock?.[2]}
-          image3={rpdata?.stock?.[1]}
+          image1={rpdata?.gallery?.[6]}
+          image2={rpdata?.gallery?.[2]}
+          image3={rpdata?.gallery?.[1]}
           listsAbout={true}
         />
 

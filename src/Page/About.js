@@ -20,14 +20,14 @@ function About() {
           title={'a little about us'}
           subtitle2={rpdata?.dbSlogan?.[3]?.slogan}
           text={rpdata?.dbAbout?.[0]?.text}
-          image1={rpdata?.stock?.[9]}
-          image2={rpdata?.stock?.[13]}
-          image3={rpdata?.stock?.[10]}
+          image1={rpdata?.gallery?.[9]}
+          image2={rpdata?.gallery?.[13]}
+          image3={rpdata?.gallery?.[10]}
           listAbout={true}
         />
         <ValuesOne
-          image={rpdata?.stock?.[15]}
-          image2={rpdata?.stock?.[10]} />
+          image={rpdata?.gallery?.[15]}
+          image2={rpdata?.gallery?.[10]} />
 
         <BlockSecondary
           title={rpdata?.dbSlogan?.[2]?.slogan}
