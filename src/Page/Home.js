@@ -34,10 +34,10 @@ function Home() {
         <BlockPrincipal
           text={rpdata?.dbHome?.[0].text}
           title={rpdata?.dbSlogan?.[5]?.slogan}
-          image1={rpdata?.stock?.[17]}
-          image2={rpdata?.stock?.[16]}
-          image3={rpdata?.stock?.[15]}
-          image4={rpdata?.stock?.[18]}
+          image1={rpdata?.gallery?.[80]}
+          image2={rpdata?.gallery?.[16]}
+          image3={rpdata?.gallery?.[98]}
+          image4={rpdata?.gallery?.[22]}
           sloganPrincipal={true}
         />
 
