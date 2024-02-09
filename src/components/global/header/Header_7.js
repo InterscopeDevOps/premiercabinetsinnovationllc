@@ -72,6 +72,21 @@ const HeaderSeven = () => {
                                         </a>
                                     </div>
                                 </div>
+                                <div className='flex  text-black'>
+                                    <div className='w-[15%] self-center mr-3'>
+                                        <BiPhoneCall color='black' fontSize={35} />
+                                    </div>
+                                    <div>
+                                        <a
+                                            href={`tel:+1${rpdata?.dbPrincipal?.phones?.[1]?.phone}`}
+                                        >
+                                            <p className='-mb-3'>Phone Number</p>
+                                            <h5 className='text-[21px]'>
+                                                {rpdata?.dbPrincipal?.phones?.[1]?.phone}
+                                            </h5>
+                                        </a>
+                                    </div>
+                                </div>
                                 <div className='hidden lg:flex justify-end text-black'>
                                     <div className='w-[15%] self-center mr-3'>
                                         <BsClockHistory color='black' fontSize={35} />
